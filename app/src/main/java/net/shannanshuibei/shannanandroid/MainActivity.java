@@ -21,5 +21,14 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(intent);
             }
         });
+
+        Button btn_flip_card = (Button) findViewById(R.id.btn_flip_card);
+        btn_flip_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FlipCardActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
     }
 }

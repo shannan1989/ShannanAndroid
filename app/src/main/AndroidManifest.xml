@@ -15,8 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TabViewpagerActivity">
-        </activity>
+        <activity android:name=".TabViewpagerActivity"/>
+        <activity android:name=".FlipCardActivity"/>
     </application>
 
 </manifest>
