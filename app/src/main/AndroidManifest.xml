@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".TabViewpagerActivity"/>
         <activity android:name=".FlipCardActivity"/>
+        <activity android:name=".WidgetsDemoActivity">
+        </activity>
     </application>
 
 </manifest>

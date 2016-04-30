@@ -12,6 +12,12 @@
     tools:context="net.shannanshuibei.shannanandroid.MainActivity">
 
     <Button
+        android:id="@+id/btn_widgets_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Widgets Demo"/>
+
+    <Button
         android:id="@+id/btn_tab_viewpager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
