@@ -24,7 +24,9 @@
         <activity
             android:name=".WidgetsDemoActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".TabFragmentActivity"/>
+        <activity
+            android:name=".TabFragmentActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
