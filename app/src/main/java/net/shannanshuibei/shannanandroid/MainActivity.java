@@ -22,6 +22,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_tab_fragment = (Button) findViewById(R.id.btn_tab_fragment);
+        btn_tab_fragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, TabFragmentActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
         Button btn_flip_card = (Button) findViewById(R.id.btn_flip_card);
         btn_flip_card.setOnClickListener(new View.OnClickListener() {
             @Override
